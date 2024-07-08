@@ -25,7 +25,7 @@ const Header = () => {
       setCurrentArticleIndex((prevIndex) => (prevIndex + 1) % sampleList.length);
     }, 5000); 
     return () => clearInterval(interval); 
-  }, []);
+  }, [sampleList.length]);
 
   return(<>
     <nav className="navbar navbar-expand-lg navbar-light bg-white px-2 px-lg-4">
