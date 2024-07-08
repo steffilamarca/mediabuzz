@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Footer = () => {
     return(<>
@@ -6,7 +6,7 @@ const Footer = () => {
             <div className="row">
                 <div className="col-4">
                     <h3 className="footer-heading">ABOUT US</h3>
-                    <p className="footer-text">MediaBUZZ is the first ‘pure’ digital publisher in the region, making an impact in Asia Pacific since 2004. Designed to empower marketers in the vibrant, ever-changing electronic marketing environment, its publication <a href="#">Asian eMarketing</a> covers the digital age and zooms in on the most valuable and indispensable tools of today’s marketers. Circulated weekly to more than 60,000 top management and marketing decision-makers, the useful and informative articles support e-marketers in finding a sound marketing strategy, vital for their growing business success.</p>
+                    <p className="footer-text">MediaBUZZ is the first ‘pure’ digital publisher in the region, making an impact in Asia Pacific since 2004. Designed to empower marketers in the vibrant, ever-changing electronic marketing environment, its publication <a href="https://creativecommons.org/licenses/by-nc-nd/3.0/sg/">Asian eMarketing</a> covers the digital age and zooms in on the most valuable and indispensable tools of today’s marketers. Circulated weekly to more than 60,000 top management and marketing decision-makers, the useful and informative articles support e-marketers in finding a sound marketing strategy, vital for their growing business success.</p>
                 </div>
                 <div className="col-4"></div>
                 <div className="col-4">

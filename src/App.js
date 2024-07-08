@@ -25,7 +25,6 @@ function App() {
   const month = today.getMonth();
   const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'June', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
   const monthName = months[month];
-  const fullDate = `${dayName}, ${monthName} ${date},`;
 
   const getOrdinalSuffix = day => {
     if (day >= 11 && day <= 13) {
@@ -45,7 +44,7 @@ function App() {
 
   return (
     <Router>
-      <img className="banner" src="/images/banner.webp" alt="Banner Image" />
+      <img className="banner" src="/images/banner.webp"/>
       <div className="day d-flex px-4 py-2">{dayName}&nbsp;
         <div className="date text-white ms-1 px-2">{monthName} {date}{getOrdinalSuffix(date)}</div>
       </div>
