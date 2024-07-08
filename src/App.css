@@ -145,10 +145,28 @@ a.nav-link:hover {
     color: black;
 }
 
-/* About Us */
+/* Contact Us */
 
-.about-us {
+.contact-us {
     color: #777777;
+}
+
+.contact-info {
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.contact-icon {
+    width: 100px;
+}
+
+.contact-us-link {
+    color: #eb1c15;
+}
+
+.send-message-btn {
+    background-color: #eb1c15;
+    color: white;
 }
 
 /* Footer */
