@@ -12,6 +12,7 @@ import PastEvents from './components/events/PastEvents';
 import Supplements from './components/events/Supplements';
 import Subscription from './components/Subscription';
 import Advertising from './components/Advertising';
+import AboutUs from './components/AboutUs';
 import ContactUs from './components/ContactUs';
 import Footer from "./components/Footer";
 
@@ -60,6 +61,7 @@ function App() {
         <Route path="/events/mediabuzz/past" element={<PastEvents/>}/>
         <Route path="/subscribe" element={<Subscription/>}/>
         <Route path="/advert" element={<Advertising/>}/>
+        <Route path="/about-us" element={<AboutUs/>}/>
         <Route path="/contact-us" element={<ContactUs/>}/>
       </Routes>
       <Footer/>

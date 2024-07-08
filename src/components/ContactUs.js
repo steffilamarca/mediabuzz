@@ -63,7 +63,7 @@ const ContactUs = () => {
                 <label htmlFor="name" className="form-label">Your Name</label>
                 <input
                     type="text"
-                    className="form-control"
+                    className="form-control rounded-0"
                     id="name"
                     name="name"
                     value={formData.name}
@@ -75,7 +75,7 @@ const ContactUs = () => {
                 <label htmlFor="email" className="form-label">Your Email</label>
                 <input
                     type="email"
-                    className="form-control"
+                    className="form-control rounded-0"
                     id="email"
                     name="email"
                     value={formData.email}
@@ -86,7 +86,7 @@ const ContactUs = () => {
             <div className="mb-3">
                 <label htmlFor="message" className="form-label">Message</label>
                 <textarea
-                    className="form-control"
+                    className="form-control rounded-0"
                     id="message"
                     name="message"
                     value={formData.message}

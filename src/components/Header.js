@@ -41,27 +41,27 @@ const Header = () => {
             <NavLink className="nav-link" to="/marketing">ASIAN E-MARKETING</NavLink>
           </li>
           <li className="nav-item dropdown">
-            <NavLink className="nav-link" to="/events">EVENTS</NavLink>
-            <ul className="dropdown-menu">
-              <li>
-                <NavLink className="dropdown-item" to="/events/partners">Media Partners'Events</NavLink>
-              </li>
-              <li className="dropdown-submenu">
-                <NavLink className="dropdown-item" to="/events/event2">MediaBUZZ Events</NavLink>
-                <ul className="dropdown-menu dropdown-submenu-right">
-                  <li>
-                    <NavLink className="dropdown-item" to="/events/mediabuzz/details1">Supplements</NavLink>
-                  </li>
-                  <li>
-                    <NavLink className="dropdown-item" to="/events/mediabuzz/details2">Past Events</NavLink>
-                  </li>
-                </ul>
-              </li>
-              <li>
-                <NavLink className="dropdown-item" to="/events/partners/detail">Media Partners'Events Details</NavLink>
-              </li>
-            </ul>
-          </li>
+              <NavLink className="nav-link" to="/events">EVENTS</NavLink>
+              <ul className="dropdown-menu">
+                <li>
+                  <NavLink className="dropdown-item" to="/events/partners">Media Partners' Events</NavLink>
+                </li>
+                <li className="dropdown-submenu">
+                  <NavLink className="dropdown-item" to="/events/event2">MediaBUZZ Events</NavLink>
+                  <ul className="dropdown-menu-right">
+                    <li>
+                      <NavLink className="dropdown-item dropdown-item-right" to="/events/mediabuzz/details1">Supplements</NavLink>
+                    </li>
+                    <li>
+                      <NavLink className="dropdown-item dropdown-item-right" to="/events/mediabuzz/details2">Past Events</NavLink>
+                    </li>
+                  </ul>
+                </li>
+                <li>
+                  <NavLink className="dropdown-item" to="/events/partners/detail">Media Partners' Events Details</NavLink>
+                </li>
+              </ul>
+            </li>
           <li className="nav-item">
             <NavLink className="nav-link" to="/subscribe">SUBSCRIPTION</NavLink>
           </li>
@@ -75,15 +75,18 @@ const Header = () => {
       </div>
     </nav>
     <div className="row mx-3 px-lg-3">
-      <div className="col-2 border border-dark d-flex align-items-center">LATEST NEWS</div>
+      <div className="latest-news col-2 border border-dark d-flex justify-content-center align-items-center">
+        LATEST NEWS
+      </div>
       <div className="article-fluctuation col-6 border border-dark d-flex align-items-center">
         {sampleList.map((article, index) => (
           <a key={index} href={article.link} className={`article-item ${index === currentArticleIndex ? 'active' : ''}`}>
             {article.name}
           </a>
         ))}</div>
-      <div className="col-4 border border-dark d-flex align-items-center py-2">
-      <input type="text" className="searchbar form-control rounded-5" placeholder="Search..."/>        </div>
+      <div className="col-4 border border-dark d-flex align-items-center">
+        <input type="text" className="searchbar form-control rounded-5" placeholder="Search..."/>
+      </div>
     </div>
     <hr className="header-hr"/>
   </>)
