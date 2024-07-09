@@ -1,26 +1,62 @@
 [
     {
-        "supplementId": "1",
+        "supplementId": 1,
         "title": "DATA LOSS PREVENTION",
-        "description": {
-            "text": "Targeted at 50 top management and professionals, MediaBUZZ's half day seminar on August 13th, 2009, attracted top-notch attendees who discovered the latest in Data Loss Prevention, the current trends and technology in this space as well as how data breaches and loss are evolving.\n\nKeep your eyes trained for our event supplement that will be out at the end of September, and which will feature in-depth coverage of the presentations, interviews with the speakers and companies and more on data loss prevention.\n\nThe presentations of our speakers can be downloaded here:",
-            "image": "supplement-1.webp"
-        },
+        "description": "Targeted at 50 top management and professionals, MediaBUZZ's half day seminar on August 13th, 2009, attracted top-notch attendees who discovered the latest in Data Loss Prevention, the current trends and technology in this space as well as how data breaches and loss are evolving.\n\nKeep your eyes trained for our event supplement that will be out at the end of September, and which will feature in-depth coverage of the presentations, interviews with the speakers and companies and more on data loss prevention.\n\nThe presentations of our speakers can be downloaded here:",
         "links": [
             {
-                "title": "A Brief History and Look at Data Loss Prevention",
+                "name": "A Brief History and Look at Data Loss Prevention",
                 "pdf": "A_Brief_History_and_Look_at_Data_Loss_Prevention",
                 "description": "Exploring the trends in data loss prevention in Asia, how it’s tied to Internet threats, intrusion detection and access control, how the market has shifted over the last few years and where it is moving to now. Presenter: Arun Chandrasekaran, Industry Manager Asia Pacific ICT, Frost & Sullivan"
             },
             {
-                "title": "The Truth about Data Loss",
+                "name": "The Truth about Data Loss",
                 "pdf": "The_Truth_about_Data_Loss",
                 "description": "Why is it so important to guard the integrity and confidentiality of your company’s information throughout its lifecycle and how can this be achieved? How are companies and individuals risking their assets and reputations? What is the impact of data loss on a company in Asia? How are access control and intrusion prevention tied to data loss? What data loss prevention ‘Best Practices’ can companies use to protect themselves from losing sensitive information? We will also look at the many types of Data Loss Systems available such as Network DLP and Host-Based DLP systems. What’s the difference between them?; What are their strengths and weaknesses? What should we expect from data prevention solutions? Presenter: Kelvin Wee, Principal Technical Consultant, Data Security Group, Asia Pacific, RSA Security"
             },
             {
-                "title": "Data Loss Prevention: Are You Missing Something?",
+                "name": "Data Loss Prevention: Are You Missing Something?",
                 "pdf": "Data_Loss_Prevention_Are_You_Missing_Something",
                 "description": "Employees accessing inappropriate websites will always be a concern to organizations of all sizes, but the growing presence of harmful applications on desktops and the use of instant messaging and peer-to-peer (P2P) applications has also dramatically increased organizations' risks. Exactly what do Web Filtering and Web Security have to do with data loss prevention? How can you prevent data leakage, manage compliance and risk as well as secure all your business processes all at the same time? Presenter: Anthony Lim, Security Chapter, SiTF"
+            }
+        ]
+    },
+    {
+        "supplementId": 2,
+        "title": "ANTI-SPAM GUIDE",
+        "description": "This guide tries to uncover why the spam problem seems to be worsening. After all, it’s been five years since Bill Gates predicted spam would be eradicated. However, instead of disappearing, spam remains a major problem for computer users as spammers veer away from traditional techniques and get creative. Is there really no end in sight to the spam menace? Hear more about Spam and UTM for yourself from experts from Frost & Sullivan, Tumbleweed, Sophos, BoxSentry, WatchGuard, and the Security Chapter of SiTF via video-streaming within our Guide.",
+        "links": [
+            {
+                "name": "Download the Anti-Spam Guide here",
+                "pdf": "Asian_Anti_Spam_Guide"
+            }
+        ]
+    },
+    {
+        "supplementId": 4,
+        "title": "UTM - AN EVOLUTION OR REVOLUTION?",
+        "description": "It’s no secret that security threats are on the rise. Everywhere you look; there are reports on new breaches, hacking/phishing attacks, spam, malware, Trojans, botnet attacks and more. Security threats to SMBs (small & medium enterprises) are just as real as they are to enterprise organizations. Unfortunately, the tragedy is that many SMBs are simply unaware of Unified Threat Management (UTM) and how it can combat these threats. After all, secure networks afford businesses the freedom to be productive and operate efficiently.\n\nSo what exactly is UTM? Originally coined by IDC, UTM refers to comprehensive network infrastructure devices in which multiple security technologies - often firewall, intrusion prevention, antivirus and spyware - are combined into a single appliance. Because these devices provide a single, integrated interface, UTM aims to simplify network security management. Most UTM devices are firewalls or IPS devices at the core, with other technologies available as optional components or modules. However, did you know that conversely, nearly all modern firewalls have UTM capabilities?\n\nWhile UTM was initially targeted at SMBs, vendors have been trying to move the technology upstream to larger organizations. But just how successful has this strategy been so far? Do you know what UTM means and does for your company? UTM is definitely an up-and-coming trend in the network security world. MediaBUZZ’s event “UTM: An Evolution or Revolution?” explored this technology in detail to find out more about it - its current trends and challenges, and what these mean for both users and vendors’ alike. Read all about the findings and core discussion points!",
+        "links": [
+            {
+                "name": "Please click here to download the complete supplement.",
+                "pdf": "UTM_An_Evolution_Or_Revolution"
+            }
+        ],
+        "credits": [
+            {
+                "image": "Nobert",
+                "description": "Norbert Kiss \n\n Watchguard",
+                "link": "https://www.watchguard.com/"
+            },
+            {
+                "image": "Anthony",
+                "description": "Anthony Lim \n\n Security & Governance \n\n Chapter, SITF",
+                "link": "http://www.sitf.org.sg/index.php?option=com_groupjive&task=showgroup&groupid=8"
+            },
+            {
+                "image": "Arun",
+                "description": "Arun \n\n Frost & Sullivan",
+                "link": "https://www.frost.com/"
             }
         ]
     }
