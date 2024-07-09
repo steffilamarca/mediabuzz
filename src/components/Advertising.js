@@ -28,23 +28,23 @@ const Advertising = () => {
     const pages = Array.from({ length: 10 }, (_, index) => index + 1); // Create an array from 1 to 10
     
 
-    const [page, setPage] = useState(0);
-    const [totalPage, setTotalPage] = useState(0);
+    // const [page, setPage] = useState(0);
+    // const [totalPage, setTotalPage] = useState(0);
     const flipBookRef = useRef(null);
 
-    const nextButtonClick = () => {
-        const flipBook = flipBookRef.current;
-        if (flipBook && flipBook.flipNext) {
-        flipBook.flipNext();
-        }
-    };
+    // const nextButtonClick = () => {
+    //     const flipBook = flipBookRef.current;
+    //     if (flipBook && flipBook.flipNext) {
+    //     flipBook.flipNext();
+    //     }
+    // };
 
-    const prevButtonClick = () => {
-        const flipBook = flipBookRef.current;
-        if (flipBook && flipBook.flipPrev) {
-        flipBook.flipPrev();
-        }
-    };
+    // const prevButtonClick = () => {
+    //     const flipBook = flipBookRef.current;
+    //     if (flipBook && flipBook.flipPrev) {
+    //     flipBook.flipPrev();
+    //     }
+    // };
 
     const onPage = e => {
         setPage(e.data);
