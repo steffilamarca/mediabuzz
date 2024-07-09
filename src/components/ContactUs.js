@@ -28,11 +28,11 @@ const ContactUs = () => {
         <table className="contact-info mt-4 mb-4">
             <tbody>
                 <tr>
-                    <td className="contact-icon align-top text-center py-4 ps-4">
+                    <td className="contact-icon align-top text-center py-4 pt-5 ps-4">
                         <FontAwesomeIcon icon={faLocationDot} size="2x"/>
                     </td>
-                    <td className="py-3">
-                        <p className="mb-3">MediaBUZZ Pte Ltd</p>
+                    <td className="py-3 pt-4">
+                        <p className="mb-3 pt-4">MediaBUZZ Pte Ltd</p>
                         <p>50 Kaki Bukit Place</p>
                         <p>#04-01, Jean Yip Building</p>
                         <p>Singapore 415926</p>
@@ -51,7 +51,7 @@ const ContactUs = () => {
                     <td className="contact-icon align-top text-center pt-4 pb-3 ps-4">
                         <FontAwesomeIcon icon={faEnvelope} size="2x"/>
                     </td>
-                    <td className="pt-3">
+                    <td className="pt-4 pb-5">
                         <p>Email: <a className="contact-us-link" href="mailto:info@mediabuzz.com.sg">info@mediabuzz.com.sg</a></p>
                         <p>Web: <a className="contact-us-link" href="http://www.mediabuzz.com.sg">http://www.mediabuzz.com.sg</a></p>
                     </td>
