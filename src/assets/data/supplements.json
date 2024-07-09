@@ -1,0 +1,25 @@
+[
+    {
+        "supplementId": "1",
+        "title": "MEDIABUZZ VIRTUALIZATION EVENT",
+        "description": {
+            "text": "On April 2, 2009, MediaBUZZ held its half-day seminar 'The Virtual World', at the National Library Singapore. Targeted at a selected group of 50 attendees interested in learning more about the technology, we allowed at the end 78 individuals to be part of it. Adrian De Luca, Director, Storage Management & Data Protection, Asia Pacific, HITACHI DATA SYSTEMS, Pushpendra Kumar Gupta, Vice-Chair for SNIA South Asia, Scott-Andrew Wardley, Capacity Planner, Standard Chartered Bank and Mr. Saravanan Krishnan of SNIA South Asia dived with them into the topic and especially zoomed into storage virtualization to see how it benefits companies of all sizes.\n\nVirtualization is right now at the top of many executives’ agendas as the technology offers many advantages like reducing energy bills, faster hardware, ease of use, not being tied to any software or operating system, increased responsiveness, more simplified system migrations and back-ups, improved remote management and security, as well as the relatively new phenomenon of storage virtualization.\n\nIf you are interested in getting more information on the event and topic, you can download the presentations here:",
+            "image": "supplement-1.webp"
+        },
+        "links": [
+            {
+                "title": "Reinventing Storage Virtualization by Adrian De Luca, HITACHI DATA SYSTEMS",
+                "pdf": "Reinventing_Storage_Virtualization"
+            },
+            {
+                "title": "Storage Virtualization I: What, Why, Where and How? By Pushpendra Kumar Gupta, SNIA South Asia",
+                "pdf": "Virtualization_I"
+            },
+            {
+                "title": "Hard Times and New Opportunities by Scott-Andrew Wardley, Standard Chartered Bank",
+                "pdf": "Hard_Times_and_New_Opportunities",
+                "description": "And watch out for the coverage of the whole event which will be part of the upcoming issue of Asian Channels. It will also summarize the event’s panel discussion on Virtualization and the Storage Management Gap, which was moderated by Mr. Saravanan Krishnan of SNIA South Asia, discussing points like e.g.: \n\nIs there a storage management gap, why so?\nWhat are the main challenges involved in virtualization to ensure the management and business advantage?\nAre there any security issues when it comes to storage virtualization? How can these issues be addressed?\nWhat are the main pitfalls when working with a virtualized environment? How do the benefits outweigh the challenges?\nGreen IT and storage virtualization: Do you think storage virtualization will spur the Green IT movement in Asia further and maybe see an increased adoption here?\nStorage cloud computing – what is it and why is it such a buzzword now?"
+            }
+        ]
+    }
+]
