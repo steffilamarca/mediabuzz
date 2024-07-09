@@ -46,16 +46,16 @@ const Advertising = () => {
     //     }
     // };
 
-    const onPage = e => {
-        setPage(e.data);
-    };
+    // const onPage = e => {
+    //     setPage(e.data);
+    // };
 
-    useEffect(() => {
-        const flipBook = flipBookRef.current;
-        if (flipBook && flipBook.getPageFlip) {
-        setTotalPage(flipBook.getPageFlip().getPageCount());
-        }
-    }, []);
+    // useEffect(() => {
+    //     const flipBook = flipBookRef.current;
+    //     if (flipBook && flipBook.getPageFlip) {
+    //     setTotalPage(flipBook.getPageFlip().getPageCount());
+    //     }
+    // }, []);
 
   return (
     <div className="advertising px-3 px-lg-5 mb-4">
@@ -74,7 +74,7 @@ const Advertising = () => {
             maxShadowOpacity={0.5}
             showCover={true}
             mobileScrollSupport={true}
-            onFlip={onPage}
+            // onFlip={onPage}
             ref={flipBookRef}
             >
             <PageCover>
