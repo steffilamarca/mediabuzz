@@ -11,7 +11,9 @@ const Partners = () => {
         {partnerEvents.map(event => (
             <div key={event.eventId} className="text-center">
                 <hr className="text-secondary"/>
-                {event.image && <img src={`/images/events/${event.image}.webp`} alt={event.name} className="img-fluid mb-3" />}
+                {event.image && <a href={event.eventLink} target="_blank" rel="noopener noreferrer">
+                    <img src={`/images/events/${event.image}.webp`} alt={event.name} className="img-fluid mb-3" />
+                </a>}
             </div>
         ))}
     </div>)
