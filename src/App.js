@@ -11,6 +11,7 @@ import PartnersDetails from './components/events/PartnersDetails';
 import PastEvents from './components/events/PastEvents';
 import MediaBuzz from './components/events/MediaBuzz';
 import Supplements from './components/events/Supplements';
+import Supplement from './components/events/Supplement';
 import Subscription from './components/Subscription';
 import Advertising from './components/Advertising';
 import AboutUs from './components/AboutUs';
@@ -60,6 +61,7 @@ function App() {
         <Route path="/events/partners/details" element={<PartnersDetails/>}/>
         <Route path="/events/mediabuzz" element={<MediaBuzz/>}/>
         <Route path="/events/mediabuzz/supplements" element={<Supplements/>}/>
+        <Route path="/events/mediabuzz/supplements/:id" element={<Supplement/>} />
         <Route path="/events/mediabuzz/past" element={<PastEvents/>}/>
         <Route path="/subscribe" element={<Subscription/>}/>
         <Route path="/advert" element={<Advertising/>}/>

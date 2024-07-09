@@ -1,24 +1,26 @@
 [
     {
         "supplementId": "1",
-        "title": "MEDIABUZZ VIRTUALIZATION EVENT",
+        "title": "DATA LOSS PREVENTION",
         "description": {
-            "text": "On April 2, 2009, MediaBUZZ held its half-day seminar 'The Virtual World', at the National Library Singapore. Targeted at a selected group of 50 attendees interested in learning more about the technology, we allowed at the end 78 individuals to be part of it. Adrian De Luca, Director, Storage Management & Data Protection, Asia Pacific, HITACHI DATA SYSTEMS, Pushpendra Kumar Gupta, Vice-Chair for SNIA South Asia, Scott-Andrew Wardley, Capacity Planner, Standard Chartered Bank and Mr. Saravanan Krishnan of SNIA South Asia dived with them into the topic and especially zoomed into storage virtualization to see how it benefits companies of all sizes.\n\nVirtualization is right now at the top of many executives’ agendas as the technology offers many advantages like reducing energy bills, faster hardware, ease of use, not being tied to any software or operating system, increased responsiveness, more simplified system migrations and back-ups, improved remote management and security, as well as the relatively new phenomenon of storage virtualization.\n\nIf you are interested in getting more information on the event and topic, you can download the presentations here:",
+            "text": "Targeted at 50 top management and professionals, MediaBUZZ's half day seminar on August 13th, 2009, attracted top-notch attendees who discovered the latest in Data Loss Prevention, the current trends and technology in this space as well as how data breaches and loss are evolving.\n\nKeep your eyes trained for our event supplement that will be out at the end of September, and which will feature in-depth coverage of the presentations, interviews with the speakers and companies and more on data loss prevention.\n\nThe presentations of our speakers can be downloaded here:",
             "image": "supplement-1.webp"
         },
         "links": [
             {
-                "title": "Reinventing Storage Virtualization by Adrian De Luca, HITACHI DATA SYSTEMS",
-                "pdf": "Reinventing_Storage_Virtualization"
+                "title": "A Brief History and Look at Data Loss Prevention",
+                "pdf": "A_Brief_History_and_Look_at_Data_Loss_Prevention",
+                "description": "Exploring the trends in data loss prevention in Asia, how it’s tied to Internet threats, intrusion detection and access control, how the market has shifted over the last few years and where it is moving to now. Presenter: Arun Chandrasekaran, Industry Manager Asia Pacific ICT, Frost & Sullivan"
             },
             {
-                "title": "Storage Virtualization I: What, Why, Where and How? By Pushpendra Kumar Gupta, SNIA South Asia",
-                "pdf": "Virtualization_I"
+                "title": "The Truth about Data Loss",
+                "pdf": "The_Truth_about_Data_Loss",
+                "description": "Why is it so important to guard the integrity and confidentiality of your company’s information throughout its lifecycle and how can this be achieved? How are companies and individuals risking their assets and reputations? What is the impact of data loss on a company in Asia? How are access control and intrusion prevention tied to data loss? What data loss prevention ‘Best Practices’ can companies use to protect themselves from losing sensitive information? We will also look at the many types of Data Loss Systems available such as Network DLP and Host-Based DLP systems. What’s the difference between them?; What are their strengths and weaknesses? What should we expect from data prevention solutions? Presenter: Kelvin Wee, Principal Technical Consultant, Data Security Group, Asia Pacific, RSA Security"
             },
             {
-                "title": "Hard Times and New Opportunities by Scott-Andrew Wardley, Standard Chartered Bank",
-                "pdf": "Hard_Times_and_New_Opportunities",
-                "description": "And watch out for the coverage of the whole event which will be part of the upcoming issue of Asian Channels. It will also summarize the event’s panel discussion on Virtualization and the Storage Management Gap, which was moderated by Mr. Saravanan Krishnan of SNIA South Asia, discussing points like e.g.: \n\nIs there a storage management gap, why so?\nWhat are the main challenges involved in virtualization to ensure the management and business advantage?\nAre there any security issues when it comes to storage virtualization? How can these issues be addressed?\nWhat are the main pitfalls when working with a virtualized environment? How do the benefits outweigh the challenges?\nGreen IT and storage virtualization: Do you think storage virtualization will spur the Green IT movement in Asia further and maybe see an increased adoption here?\nStorage cloud computing – what is it and why is it such a buzzword now?"
+                "title": "Data Loss Prevention: Are You Missing Something?",
+                "pdf": "Data_Loss_Prevention_Are_You_Missing_Something",
+                "description": "Employees accessing inappropriate websites will always be a concern to organizations of all sizes, but the growing presence of harmful applications on desktops and the use of instant messaging and peer-to-peer (P2P) applications has also dramatically increased organizations' risks. Exactly what do Web Filtering and Web Security have to do with data loss prevention? How can you prevent data leakage, manage compliance and risk as well as secure all your business processes all at the same time? Presenter: Anthony Lim, Security Chapter, SiTF"
             }
         ]
     }

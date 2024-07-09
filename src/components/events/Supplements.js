@@ -11,7 +11,7 @@ const Supplements = () => {
                     <img className="supplement-thumbnail" src={`/images/supplements/thumbnails/supplement-${supplement.supplementId}.webp`}></img>
                 </div>
                 <p>{supplement.description.text.substring(0, 308)}...</p>
-                <button className="read-more-btn btn btn-light">Read more...</button>
+                <NavLink to={`/events/mediabuzz/supplements/${supplement.supplementId}`} className="read-more-btn btn btn-light">Read more...</NavLink>
             </div>)}
         </div>
     </div>)

@@ -191,7 +191,7 @@ a:hover {
 
 .supplement-thumbnail-wrapper {
     float: left;
-    width: 105px;
+    width: 120px;
     height: 80px;
     overflow: hidden;
     position: relative;
@@ -202,6 +202,16 @@ a:hover {
     width: 100%;
     object-fit: cover;
     object-position: top;
+}
+
+/* Supplement */
+
+.supplement-page {
+    color: #666666;
+}
+
+.supplement-image {
+    float: right;
 }
 
 .read-more-btn {
