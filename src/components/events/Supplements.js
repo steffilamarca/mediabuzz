@@ -8,7 +8,7 @@ const Supplements = () => {
             {supplements.map(supplement=><div className="col-6 mb-4">
                 <h4 className="supplement-title-thumbnail">{supplement.title}</h4>
                 <div className="supplement-thumbnail-wrapper me-2">
-                    <img className="supplement-thumbnail" src={`/images/supplements/thumbnails/supplement-${supplement.supplementId}.webp`}></img>
+                    <img className="supplement-thumbnail" src={`/images/supplements/thumbnails/supplement-${supplement.supplementId}.webp`} alt={supplement.title}></img>
                 </div>
                 <p>{supplement.description.substring(0, 308)}...</p>
                 <NavLink to={`/events/mediabuzz/supplements/${supplement.supplementId}`} className="read-more-btn btn btn-light">Read more...</NavLink>
