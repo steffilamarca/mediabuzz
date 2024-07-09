@@ -41,13 +41,13 @@ const Header = () => {
             <NavLink className="nav-link" to="/marketing">ASIAN E-MARKETING</NavLink>
           </li>
           <li className="nav-item dropdown">
-              <NavLink className="nav-link" to="/events">EVENTS</NavLink>
+              <p className="nav-link">EVENTS</p>
               <ul className="dropdown-menu">
                 <li>
                   <NavLink className="dropdown-item" to="/events/partners">Media Partners' Events</NavLink>
                 </li>
                 <li className="dropdown-submenu">
-                  <NavLink className="dropdown-item" to="/events/event2">MediaBUZZ Events</NavLink>
+                  <NavLink className="dropdown-item" to="/events/mediabuzz">MediaBUZZ Events</NavLink>
                   <ul className="dropdown-menu-right">
                     <li>
                       <NavLink className="dropdown-item dropdown-item-right" to="/events/mediabuzz/details1">Supplements</NavLink>
@@ -58,7 +58,7 @@ const Header = () => {
                   </ul>
                 </li>
                 <li>
-                  <NavLink className="dropdown-item" to="/events/partners/detail">Media Partners' Events Details</NavLink>
+                  <NavLink className="dropdown-item" to="/events/partners/details">Media Partners' Events Details</NavLink>
                 </li>
               </ul>
             </li>
