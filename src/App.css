@@ -172,10 +172,12 @@ a:hover {
 
 .partner-details-table {
     color: #666666;
+    font-size: 13px;
 }
 
 .partner-details-table th, .partner-details-table td {
     border: 1px solid #666666;
+    padding: 4px 8px 4px;
 }
 
 /* Advertising */
