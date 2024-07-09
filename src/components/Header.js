@@ -50,7 +50,7 @@ const Header = () => {
                   <NavLink className="dropdown-item" to="/events/mediabuzz">MediaBUZZ Events</NavLink>
                   <ul className="dropdown-menu-right">
                     <li>
-                      <NavLink className="dropdown-item dropdown-item-right" to="/events/mediabuzz/details1">Supplements</NavLink>
+                      <NavLink className="dropdown-item dropdown-item-right" to="/events/mediabuzz/supplements">Supplements</NavLink>
                     </li>
                     <li>
                       <NavLink className="dropdown-item dropdown-item-right" to="/events/mediabuzz/details2">Past Events</NavLink>

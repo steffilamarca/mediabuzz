@@ -6,7 +6,7 @@ const Partners = () => {
     const partnerEvents = events.filter(event => event.category === "Partner Events");
 
     return(<div className="partner-datails px-3 px-lg-5">
-        <div className="breadcrumb px-3 py-2 rounded-2">You are here:&nbsp;<NavLink exact to="/">Home</NavLink> &nbsp; &gt; &nbsp;Events &nbsp; &gt; &nbsp; <span className="breadcrumb-selected">Media Partners Events</span></div>
+        <div className="breadcrumb px-3 py-2 rounded-2">You are here:&nbsp;<NavLink exact to="/">Home</NavLink> &nbsp; &gt; &nbsp;Events &nbsp; &gt; &nbsp;<span className="breadcrumb-selected">Media Partners Events</span></div>
         <h2 className="page-heading">PARTNERSHIP EVENTS</h2>
         {partnerEvents.map(event => (
             <div key={event.eventId} className="text-center">
