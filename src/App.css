@@ -59,7 +59,7 @@ a:hover {
     position: relative;
 }
   
-.dropdown-menu {
+.dropdown-menu, .dropdown-menu-right {
     display: none;
     position: absolute;
     top: 100%;
