@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useRef, useCallback  } from 'react';
 import { NavLink } from "react-router-dom";
 import HTMLFlipBook from 'react-pageflip';
 
@@ -27,42 +27,27 @@ const Advertising = () => {
 
     const pages = Array.from({ length: 10 }, (_, index) => index + 1); // Create an array from 1 to 10
     
-
-    // const [page, setPage] = useState(0);
-    // const [totalPage, setTotalPage] = useState(0);
     const flipBookRef = useRef(null);
 
-    // const nextButtonClick = () => {
-    //     const flipBook = flipBookRef.current;
-    //     if (flipBook && flipBook.flipNext) {
-    //     flipBook.flipNext();
-    //     }
-    // };
-
-    // const prevButtonClick = () => {
-    //     const flipBook = flipBookRef.current;
-    //     if (flipBook && flipBook.flipPrev) {
-    //     flipBook.flipPrev();
-    //     }
-    // };
-
-    // const onPage = e => {
-    //     setPage(e.data);
-    // };
-
-    // useEffect(() => {
-    //     const flipBook = flipBookRef.current;
-    //     if (flipBook && flipBook.getPageFlip) {
-    //     setTotalPage(flipBook.getPageFlip().getPageCount());
-    //     }
-    // }, []);
+    const onPageFlip = useCallback((e) => {
+        const bookEl = document.querySelector('.stf__block');
+        if (bookEl) { 
+            if (e.data === 0) bookEl.classList.remove('active');
+            else if (e.data===11 ) bookEl.classList.add('inactive');
+            else {
+                bookEl.classList.add('active');
+                bookEl.classList.remove('inactive');
+            }
+        }
+        console.log('Current page: ' + e.data);
+    }, []);
 
   return (
     <div className="advertising px-3 px-lg-5 mb-4">
         <div className="breadcrumb px-3 py-2 rounded-2">You are here:&nbsp;<NavLink exact to="/">Home</NavLink> &nbsp; &gt; &nbsp;<span className="breadcrumb-selected">Advertising</span></div>
         <h2 className="page-heading">MEDIA KIT 2022</h2>
         <h6>Also view: <NavLink to="/about-us">About Us</NavLink></h6>
-        <div className="demo-book">
+        <div className="">
             <HTMLFlipBook
             width={550}
             height={733}
@@ -74,7 +59,7 @@ const Advertising = () => {
             maxShadowOpacity={0.5}
             showCover={true}
             mobileScrollSupport={true}
-            // onFlip={onPage}
+            onFlip={onPageFlip}
             ref={flipBookRef}
             >
             <PageCover>
@@ -91,18 +76,9 @@ const Advertising = () => {
                 </div>
             </PageCover>
             </HTMLFlipBook>
+            <button className="position-absolute" onClick={()=>flipBookRef.current.pageFlip().flipPrev()}>&lt;</button>
+            <button className="position-absolute" onClick={()=>flipBookRef.current.pageFlip().flipNext()}>&gt;</button>
         </div>
-        {/* <div className="container">
-            <div>
-            <button type="button" onClick={prevButtonClick}>
-                Previous page
-            </button>
-            [<span>{page}</span> of <span>{totalPage}</span>]
-            <button type="button" onClick={nextButtonClick}>
-                Next page
-            </button>
-            </div>
-        </div> */}
     </div>
   );
 };

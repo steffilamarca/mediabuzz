@@ -249,6 +249,19 @@ a:hover {
     margin: 0;
 }
 
+.stf__block {
+    left: -25%;
+    transition: left 0.4s ease-out;
+}
+
+.stf__block.active {
+    left: 0;
+}
+
+.stf__block.inactive {
+    left: 25%;
+}
+
 .book-cover-wrapper, .book-backpage-wrapper, .book-page-wrapper {
     width: 100%;
     height: 100%;

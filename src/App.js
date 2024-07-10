@@ -48,7 +48,7 @@ function App() {
   return (
     <Router>
       <img className="banner" src="/images/banner.webp" alt="MediaBuzz - Communicating via Communities"/>
-      <div className="day d-flex px-3 py-1">{dayName}&nbsp;
+      <div className="day d-flex px-3 py-2">{dayName}&nbsp;
         <div className="date text-white ms-1 px-2">{monthName} {date}{getDateOrdinalSuffix(date)}</div>
       </div>
       <Header/>
